@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web-Jun</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+                <h1 class="header__zag">НАШИ САЙТЫ ЗАСТАВЛЯЮТ РАБОТАТЬ ВАШ БИЗНЕС.</h1>
+                <p class="header__text">Большинство веб-студий считают окончанием работы загрузку сайта в интернет. Но почти никто не умеет делать проекты, которые работают и приносят прибыль.</p>
+                <div class="header__img">
+                    <div class="header__item">
+                        <img class="h__img" src="images/accessory32.png" alt="1">
+                    </div>
+                    <div class="header__item">
+                        <img  class="h__img" src="images/favourite24.png" alt="2">
+                    </div>
+                    <div class="header__item">
+                        <img  class="h__img" src="images/tasks3.png" alt="3">
+                    </div>
+                </div>
+            </div>
+    </header>
+        
+        <button class="burger" type="button" id="navToggle">
+            <div class="burger__item"></div>
+            <div class="burger__item"></div>
+            <div class="burger__item"></div>
+        </button> 
+
+        <nav class="nav"  id="nav">
+                <a class="nav-link" href="#" data-scroll="#header">Главная</a>
+                <a class="nav-link" href="#" data-scroll="#studio__top">О нас</a>
+                <a class="nav-link" href="#" data-scroll="#dev">Услуги</a>
+                <a class="nav-link" href="#" data-scroll="#proj__middle">Наши работы</a>
+                <a class="nav-link" href="#" data-scroll="#communication">Контакты</a>
+        </nav>
+        
+        
+        
+
+    <div class="container">
+        <div class="studio__top" id="studio__top">
+            <div class="top__zag">
+                <p>Студия</p>
+            </div>
+            <div class="top__text">
+                <p>Основная специализация — проектирование сайов и landing page.
+                Наша команда, состоящая из дизайнеров, маркетологов и программистов,
+                поддерживает каждый проект на протяжении всей его жизни. Студия
+                занимается разработкой индивидуального дизайна, оптимизацией
+                скорости работы продукта, предоставляет услуги по продвижению сайтов.</p>
+            </div>
+        </div>
+
+        <div class="studio__down">
+            <div class="down__item">
+                <div>
+                    <img class="down__img" src="images/space.png" alt="space">
+                    <p class="down__zag">Старт</p>
+                    <p class="down__text">Вы хотите получать больше клиентов
+                    и прибыли из интернета?С нуля разработаем
+                    сайт любой сложности,учитывая индивидуальные
+                    особенности вашего бизнеса. Стоимость создания
+                    сайта в каждом конкретном случае индивидуальна
+                    и рассчитывается исходя из пожеланий и
+                    требований клиента.</p>
+                    <div class="down__btn-arrow">
+                        <div class="btn__arrow">
+                            <a href="#" class="studio__btn">от 1000 руб</a>
+                        </div>
+                        <div class="">
+                            <img class="studio__arrow" src="images/r_arrow.png" alt="arrow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="down__item">
+                <div>
+                    <img class="down__img" src="images/phone.png" alt="space">
+                    <p class="down__zag">Продвижение</p>
+                    <p class="down__text">
+                        Одним из важнейших этапов продвижения 
+                        сайта является поисковая оптимизация (SEO), 
+                        которая представляет собой комплекс мер по 
+                        повышению позиции сайта в поисковых 
+                        системах, и, таким образом, позволяет 
+                        увеличить его целевую посещаемость.
+                    </p>
+                    <div class="down__btn-arrow">
+                        <div class="btn__arrow">
+                            <a href="#" class="studio__btn">от 1000 руб</a>
+                        </div>
+                        <div class="">
+                            <img class="studio__arrow" src="images/r_arrow.png" alt="arrow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="down__item">
+                <div>
+                    <img class="down__img" src="images/heart.png" alt="space">
+                    <p class="down__zag">Поддержка</p>
+                    <p class="down__text">У Вас уже работающий бизнес и Вы 
+                        регулярно нуждаетесь в услугах веб-студии
+                        но брать сотрудника в штат и оборудовать 
+                        дополнительное рабочее место не выгодно? 
+                        Мы готовы взять эти проблемы на себя и 
+                        предоставлять нужные услуги  удаленно.
+                    </p>
+                    <div class="down__btn-arrow">
+                        <div class="btn__arrow">
+                            <a href="#" class="studio__btn">от 1000 руб</a>
+                        </div>
+                        <div class="">
+                            <img class="studio__arrow" src="images/r_arrow.png" alt="arrow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <div class="credo">
+        <div class="container">
+            <h1 class="credo__zag">КРЕДО НАШЕЙ КОМПАНИИ</h1>
+            <p class="credo__text">Мы хотим, чтобы Ваш бизнес был еще успешней и прибыльней. В нашем понимании качественный продукт — это достижение гармонии между эстетикой и
+            маркетинговыми целями. Высокий уровень контроля качества, опыт
+            работы и креативный подход к решению задач — залог
+            нашего успеха.</p>
+        </div>
+         <div class="yellow__box">
+            <img class="yellow__img" src="images/yellow_box.jpg" alt="box">
+        </div>   
+    </div>
+
+
+    
+    
+
+    <div class="container">
+       
+       
+        <div class="dev" id="dev">        
+            <div class="dev__item">
+                <div class="dev__blocks">
+                    <p class="dev__text">LANDING PAGE</p>
+                    <div>
+                        <hr class="dev__hr">
+
+                        <div class="dev__btn-arrow">
+                            <a href="#" class="dev__btn">от 15000 руб</a>
+                            <div class="dev__img">
+                                <img class="dev__arrow" src="images/r_arrow.png" alt="str">
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="dev__item">
+                <div class="dev__webs">
+                    <p class="dev__text">Веб сайт</p>
+                    <div>
+                        <hr class="dev__hr">
+
+                        <div class="dev__btn-arrow">
+                            <a href="#" class="dev__btn">от 10000 руб</a>
+                            <div class="dev__img">
+                                <img class="dev__arrow" src="images/r_arrow.png" alt="str">
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="dev__item">
+                <div class="dev__market">
+                    <p class="dev__text">интернет магазин</p>
+                    <div>
+                        <hr class="dev__hr">
+
+                        <div class="dev__btn-arrow">
+                            <a href="#" class="dev__btn">от 20000 руб</a>
+                            <div class="dev__img">
+                                <img class="dev__arrow" src="images/r_arrow.png" alt="str">
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container">
+        <div class="search">
+            <div class="search__item">
+                <img class="search-zag__img" src="images/be_f.png" alt="str">
+                <p class="search__zag">Первые в поиске</p>
+                <p class="search__text">Мы предлагаем услуги по SEO продвижению
+                сайтов в ведущих поисковых системах Yandex
+                и Google. Поисковое продвижение сайта в
+                нашей веб-студии — это гарантированное 
+                присутствие на лидирующих позициях и
+                привлечение необходимой аудитории.</p>
+            </div>
+            <div class="search__item">
+                <div class="search_img"><img src="images/google.png" alt="google"></div>
+                <div class="search_img"><img src="images/yandex.png" alt="yandex"></div>
+            </div>
+        </div>
+    </div>
+ 
+
+
+        <div class="proj">
+            <p class="proj__text">последние проекты</p>
+        </div>
+
+
+    <div class="proj__middle" id="proj__middle">
+        <div class="proj__middle-item">
+            <div class="proj__middle-up">
+                <img class="proj__img1" src="images/sa.jpg" alt="sa">
+            </div>
+            <div class="proj__middle-up">
+                <img class="proj__img1" src="images/d.jpg" alt="d">
+            </div>
+        </div>
+
+        <div class="proj__middle-item">
+            <div class="middle__down-photo">
+                <div class="proj__middle-down">
+                    <img class="proj__img1" src="images/as.jpg" alt="asc">
+                </div>
+                <div class="proj__middle-down">
+                    <img class="proj__img1" src="images/rkb.jpg" alt="rkb">
+                </div>
+                <div class="proj__middle-down">
+                    <img class="proj__img1" src="images/dev.jpg" alt="dev">
+                </div>
+                <div class="proj__middle-down">
+                    <img class="proj__img1" src="images/mac.png" alt="mac">
+                </div>
+            </div> 
+        </div>
+    </div> 
+ 
+    <div class="proj proj__down">
+            <div class="proj__down-btn">
+                <button type="button" class="btn btn-lg proj__btn">Еще больше</button>
+            </div>
+    </div>
+
+    <div class="adaptive">
+        <div class="adaptive__item">
+
+            <div class="adaptive__content">
+                <p class="adaptive__zag">Адаптивность</p>
+                <img class="adaptive-zag__img" src="images/adap.png" alt="str">
+                <p class="adaptive__text">Зачем ограничивать свой бизнес только
+                пользователями стандартных компьютеров
+                и ноутбуков? Ведь сегодня все чаще люди
+                заходят в интернет с мобильных гаджетов.
+                Дайте им возможность купить именно у вас,
+                обеспечив своему сайту правильное
+                отображение на любом виде устройства.</p>
+            </div>
+        </div>
+        <div class="adaptive__item">
+            <img class="adaptive__img"  src="images/apple.png" alt="apple">
+        </div>
+    </div>
+
+    <div class="trade">
+        <h2 class="trade__zag">trade-in</h2>
+            <div class="trade__comp">
+                <div class="comp__inner">
+                    <div class="trade__content">
+                        <div class="inner__zag">
+                            <img src="images/device.png" alt="device">
+                        </div>
+                        <div class="inner__zag">программа</div>
+                    </div>
+                    <p class="trage__text">Если Вы решили обновить свой сайт или
+                    интернет-магазин, то программа трейд-ин
+                    именно то, что Вам нужно.Благодаря
+                    данной программе, Вы сможете приобрести
+                    новый сайт с минимальными вложениями,
+                    при этом утилизировав старый. Вам лишь
+                    нужно связаться с нашим отделом трейд-ин
+                    по телефону 8 (499) 390 6083, отправить
+                    письмо на адрес www@trofimov.org, либо
+                    разместить заявку на сайте.</p>
+                </div>
+                
+                <div class="comp__inner">
+                    <div class="trade__content">
+                        <div class="inner__zag">
+                            <img src="images/device.png" alt="device">
+                        </div>
+                        <div class="inner__zag">Процесс работы</div>
+                    </div>
+                    <p class="trage__text">Мы делаем предварительную оценку, 
+                    параллельно, с Вами согласовываем 
+                    веб интерфейс и систему управления, 
+                    и если Вас все устраивает, заключаем 
+                    договор. При этом Вам не придется 
+                    останавливать работу в интернете, так 
+                    как передача Вашего сайта осуществляется 
+                    только после разработки нового. Тем самым 
+                    Вы экономите не только время, но и деньги.</p>
+                </div>
+                
+                <div class="comp__inner">
+                    <div class="trade__content">
+                        <div class="inner__zag">
+                            <img src="images/device.png" alt="device">
+                        </div>
+                        <div class="inner__zag">условия</div>
+                    </div>
+                    <p class="trage__text">Вам нужно предоставить максимум информации 
+                    о предоставляемом интернет-проекте, которое 
+                    Вы хотите обновить.Данная информация 
+                    поможет нам в кратчайшие сроки рассмотреть 
+                    Ваш запрос и дать положительный ответ. Для 
+                    этого, убедительно просим Вас, присылать 
+                    информацию на Вашем фирменном бланке с 
+                    печатью, а так же фотографии домена и 
+                    хостинга.</p>
+                </div>
+            </div>
+
+            <div class="trade__button">
+                <button type="button" class="trade__btn">оценить мой сайт</button>
+            </div>
+    </div>
+
+    <div class="zab">
+        <div class="container">
+            <div class="zab__inner">
+                <div class="zab__content">
+                    <img class="zab-zag__img" src="images/bec.png" alt="str">
+                    <p class="zab__zag">Забота о каждом</p>
+                    <p class="zab__text">Рожденный в нашей студии проект обречен
+                    на пожизненную поддержку. Мы обучим вас
+                    ведению сайта, обновим контент и настроим
+                    продвижение в любой момент. Каждая деталь
+                    вашего бизнеса является состовляющим звеном 
+                    нашей студии. И мы позаботимся о вас.</p>
+                </div>
+                <div class="zab__content">
+                    <img class="zab__img" src="images/tel_deck.jpg" alt="tel_deck">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="communication" id="communication">
+        <div class="container">
+                <div class="communication__col">
+                <div class="communication__inner">
+                    <p class="communication__zag">Свяжитесь с нами</p>
+                    <p class="communication__text">Готовы начать работу? Отправьте
+                    сообщение и свои контакты, мы
+                    ответим вам в течении 2-ух дней.
+                    Схема работы с каждым клиентом
+                    будет разработана индивидуально
+                    в зависимости от поставленных задач.</p>
+                </div>
+                <div class="communication__inner">
+
+                    <form class="feedback-form">
+                        <div class="no-gutters">
+                            <div class="col">
+                                <input type="email"
+                                       class="feedback-form__field feedback-form__name"
+                                       name="name"
+                                       placeholder="Ваше имя">
+                            </div>
+                            <div class="col">
+                                <input type="email"
+                                       class="feedback-form__field feedback-form__surname"
+                                       name="surname"
+                                       placeholder="Ваша фамилия">
+                            </div>
+                        </div>
+
+                        <div>
+                            <input type="email"
+                                   class="feedback-form__field feedback-form__email"
+                                   name="email"
+                                   placeholder="E-mail">
+                        </div>
+
+                        <div>
+                            <textarea class="feedback-form__field feedback-form__msg"
+                                      name="msg"
+                                      placeholder="Введите ваше сообщение"></textarea>
+                        </div>
+                    </form>
+
+                    <div class="row">
+                        <div class="">
+                            <p class="communication__small">Наши специалисты свяжутся с вами как можно скорее</p>
+                        </div>
+                        <div class="communication-btn__under">
+                            <button type="button" class="btn btn-lg communication__btn">отправить</button>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="footer">
+        <div class="container-fluid">
+
+        </div>
+    </div>
+
+<!-- Javascript -->
+<script src="app.js"></script>
+
+</body>
+</html>
